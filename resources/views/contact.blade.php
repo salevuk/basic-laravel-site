@@ -18,11 +18,11 @@
             @endif
             <form action="{{route('contact.submit')}}" method="POST" class="form">
                 {{ csrf_field() }}
-                <div class="mrg">
+                <div>
                     <h2 class="h2-primary">CONTACT US!</h2>
                 </div>
                 <div class="form_group">
-                   <input type="text" class="form_input" placeholder="Full name" id="name" name="name" value="{{old('name')}}">
+                   <input type="text" class="form_input" placeholder="Full name" id="name" name="name" value="{{old('name')}}" required>
                    <label for="name" class="form_label">Full name</label>
                </div>
                <div class="form_group">
@@ -30,7 +30,7 @@
                    <label for="email" class="form_label">Email address</label>
                </div>
                <div class="form_group">
-                <textarea type="text" class="form_input" rows="10" cols="30" placeholder="Message" id="message" name="message" value="{{old('message')}}"></textarea>
+                <textarea type="text" class="form_input" rows="10" cols="30" placeholder="Message" id="message" name="message" value="{{old('message')}}" required></textarea>
             </div>
                <div class="form_group">
                    <input class="btn" type="submit" value="Send message">
