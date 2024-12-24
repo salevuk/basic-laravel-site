@@ -373,7 +373,7 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v6.20.44",
+            "version": "v6.20.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
@@ -408,9 +408,9 @@
                 "symfony/http-foundation": "^4.3.4",
                 "symfony/http-kernel": "^4.3.4",
                 "symfony/polyfill-php73": "^1.17",
-                "symfony/process": "^4.3.4",
+                "symfony/process": "^5.4.46",
                 "symfony/routing": "^4.3.4",
-                "symfony/var-dumper": "^4.3.4",
+                "symfony/var-dumper": "^6.4.4",
                 "tijsverkoyen/css-to-inline-styles": "^2.2.1",
                 "vlucas/phpdotenv": "^3.3"
             },
